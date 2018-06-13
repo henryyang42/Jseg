@@ -18,7 +18,7 @@ import six
 
 from .emodet import find_emo
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.ERROR)
 logger = logging.getLogger(__name__)
 
 
